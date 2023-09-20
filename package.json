@@ -2,8 +2,21 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Santiagovalb.github.io/MARKETING/",
-  
+  "homepage": "https://Santiagovalb.github.io/goit-js-hw-11/",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /MARKETING/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Santiagovalb.github.io/MARKETING.git"
+  },
+  "keywords": [],
+  "author": ">",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Santiagovalb/MARKETING/issues"
+  },
   "dependencies": {
     "animate.css": "^4.1.1",
     "axios": "^1.3.6",
